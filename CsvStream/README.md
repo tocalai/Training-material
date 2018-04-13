@@ -7,10 +7,10 @@ Image that you need to design an terminal to interactive with user for import/ex
 1. Read the created CSV file and export to screen   
 
 ## CSV file data format and example
-|ID|Name|Sex|Birthday|
-|---------|:------|:------|
-|1|John|Male|2017/01/11|
-|2|Jessica|Female|2017/10/10|
+| ID | Name | Sex | Birthday |
+| --- | --- | --- | --- |
+| 1 | John | Male | 2017/01/11 |
+| 2 | Jessica | Female | 2017/10/10 |
 
 ## Export data format and example
 ```
