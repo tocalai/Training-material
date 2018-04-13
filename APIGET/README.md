@@ -7,7 +7,7 @@ As the scenario you need to implement the below feature:
 1. Create interface with filter of prefecture, city and forecast day to get back the weather information
 
 ## Database schema format and example
-|ID|CityName|description|temperature|intime|utime
+|ID|CityName|Description|Temperature|Intime|Utime
 |---------|:------|:------|:------|:------|:-----|
 |1|Kobe|Rain|20|2017/03/29|2017/03/29|
 
