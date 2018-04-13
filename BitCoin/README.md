@@ -1,4 +1,4 @@
-## Bitcoin mining
+## Bitcoin mining summary
 Under the Bitcoin protocol, a block can contain up to 1000000 bytes of transactions.
 Miners can freely choose transactions to include in a block, and once they mine a block, they
 earn the transaction fees for each transaction in the block and an additional 12.5 BTC as a
