@@ -7,7 +7,7 @@ let them log route event into database and also create the other API to query th
   - Information event of date
   - Line name
   - Description of the event
-1. Add get route record API, input wit query criteria
+2. Add get route record API, input wit query criteria
   - Date range (from-to format)
   - Line of name 
   - Order by event date, ASC or DESC
