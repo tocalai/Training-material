@@ -1,0 +1,24 @@
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\DBAccess.exe.config
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\DBAccess.exe
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\DBAccess.pdb
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\linq2db.dll
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\linq2db.pdb
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\obj\Debug\DBAccess.exe
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\obj\Debug\DBAccess.pdb
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\Npgsql.dll
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\Npgsql.xml
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\IVP\Training\CSharp\master\4-DBAccess\DBAccess\DBAccess\obj\Debug\DBAccess.csprojResolveAssemblyReference.cache
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\DBAccess.exe.config
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\DBAccess.exe
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\DBAccess.pdb
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\linq2db.dll
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\Npgsql.dll
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\linq2db.pdb
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\Npgsql.xml
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\obj\Debug\DBAccess.csproj.CoreCompileInputs.cache
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\obj\Debug\DBAccess.exe
+D:\Git\Training Material\DBAccess\DBAccess\DBAccess\obj\Debug\DBAccess.pdb

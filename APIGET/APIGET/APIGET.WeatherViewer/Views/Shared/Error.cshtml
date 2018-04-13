@@ -1,0 +1,10 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+@{
+    ViewBag.Title = "Error";
+}
+
+
+<h2 class="label label-danger">Sorry, an error occured while processing your request!</h2>
+<h3 class="label label-danger">Error.@Model.Exception.Message</h3>
+
+@Html.ActionLink("Back", @Model.ActionName, @Model.ControllerName)

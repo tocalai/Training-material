@@ -1,0 +1,213 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    var citys = APIGET.WeatherViewer.Controllers.HomeController.CityAvaiable;
+    var prefectures = citys.Select(c => c.Prefecture).Distinct();
+}
+
+
+
+<div class="container">
+   <div class="row top-buffer">
+    </div>
+    <form class="form-horizontal" method="POST" action="@Url.Action("ForecastResult", "Home")" onsubmit ="proceedSearch()">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Prefecture</label>
+            <div class="col-sm-10">
+                <select id="prefectures" multiple="multiple">
+                @if (prefectures.Count() > 0)
+                {
+                    foreach (var pref in prefectures)
+                    {
+                        <option value="@pref">@pref</option>
+                    }
+                }
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Citys</label>
+            <div class="col-sm-10">
+                <select id="citys" multiple="multiple">
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Forecast date</label>
+            <div class="col-sm-10">
+                <select id="forecastDate" multiple="multiple">
+                    <option value="@DateTime.Now.ToString("yyyy-MM-dd")" selected="selected">今日(@DateTime.Now.ToString("yyyy-MM-dd"))</option>
+                    <option value="@DateTime.Now.AddDays(1).ToString("yyyy-MM-dd")">明日(@DateTime.Now.AddDays(1).ToString("yyyy-MM-dd"))</option>
+                    <option value="@DateTime.Now.AddDays(2).ToString("yyyy-MM-dd")">明後日(@DateTime.Now.AddDays(2).ToString("yyyy-MM-dd"))</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">Search</button>
+                <div id="message" class="text-danger"></div>
+            </div>
+        </div>
+
+        <input type="text" class="hidden" id="hiddenSearch" name="jsonSearchCriteria">
+ </form>
+</div>
+
+    @section scripts
+{
+        <script type="text/javascript">
+            function proceedSearch() {
+                var criteria = {
+                    CityIds: [],
+                    ForecastDate: []
+                };
+
+                $('#citys option:selected').map(function (a, item) {
+                    criteria.CityIds.push(item.value);
+                    return item.value;
+                });
+
+               $('#forecastDate option:selected').map(function (a, item) {
+                    criteria.ForecastDate.push(item.value);
+                    return item.value;
+                });
+
+                var stopSubmit = false;
+                var message ="";
+
+                if (criteria.CityIds.length == 0) {
+                    message += "<p>Please select at least one city</p>";
+                    stopSubmit = true;
+                }
+
+                if (criteria.ForecastDate.length == 0) {
+                    message += "<p>Please give at least one specific forecast day</p>";
+                    stopSubmit = true;
+                }
+
+                if (stopSubmit) {
+                    $('#message').html(message);
+                    if (event.preventDefault) {
+                        event.preventDefault();
+                    }
+                    else {
+                        event.returnValue = false; // for IE as dont support preventDefault;
+                    }
+                }
+                else {
+                    $('#hiddenSearch').val(JSON.stringify(criteria));
+                }
+
+                return stopSubmit;
+            }
+
+            $(document).ready(function () {
+                $('#prefectures').multiselect(
+                {
+                    enableFiltering: true,
+                    filterBehavior: 'text',
+                    maxHeight: 350,
+                    buttonWidth: '300px',
+                    //nonSelectedText: 'Select prefecture(s) for filtering city(s)',
+                    buttonText: function (options, select) {
+                        var labels = [];
+                        options.each(function () {
+                            labels.push($(this).text());
+                        });
+
+                        if (options.length === 0) {
+                            return 'Select prefecture(s) for filtering cities';
+                        }
+                        else {
+                            return labels.join(',');
+                        }
+
+                    },
+        
+                    onDropdownHide: function (event) {
+                        var values = $('#prefectures option:selected').map(function (a, item) {
+                            //console.log(item.value);
+                            return item.value;
+                        });
+
+                        console.log(values);
+                        var crierita = Array.prototype.join.call(values, ','); // ',' as token
+                       
+                        var postData = {
+                            prefs : crierita
+                        };
+
+                        // refresh the city options
+                        $.ajax({
+                            type: 'POST',
+                            url: '@Url.Action("FilterCitys", "Home")',
+                            datatype: "json",
+                            contentType: "application/json; charset=utf-8",
+                            data: JSON.stringify(postData),
+                            success: function (citys) {
+                                debugger;
+                                if (!citys) {
+                                    return;
+                                }
+
+                                var options = [];
+                                citys.forEach(function (item) {
+                                    var option = {
+                                        label: item.CityName,
+                                        title: item.CityName,
+                                        value: item.CityId
+                                    }
+
+                                    options.push(option);
+                                });
+
+                                console.log(options);
+                                // bind to citys multi-select ui
+                                $('#citys').multiselect('dataprovider', options);
+
+                            },
+                        });
+                    }
+                });
+
+                $('#citys').multiselect(
+                {
+                    disableIfEmpty: true,
+                    //nonSelectedText: 'Select city(s) for weather queries',
+                    buttonText: function (options, select) {
+                        var labels = [];
+                        options.each(function () {
+                            labels.push($(this).text());
+                        });
+
+                        if (options.length === 0) {
+                            return 'Select cities for weather queries';
+                        }
+                        else {
+                            return labels.join(',');
+                        }
+                    },
+                });
+
+                $('#forecastDate').multiselect(
+               {
+                   disableIfEmpty: true,
+                   buttonText: function (options, select) {
+                       var labels = [];
+                       options.each(function () {
+                           labels.push($(this).text());
+                       });
+
+                       if (options.length === 0) {
+                           return 'Select forecast date for  weather queries';
+                       }
+                       else {
+                           return labels.join(',');
+                       }
+                   },
+               });
+            });
+        </script>
+    }

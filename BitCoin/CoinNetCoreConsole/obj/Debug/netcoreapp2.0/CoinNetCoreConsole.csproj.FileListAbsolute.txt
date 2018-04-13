@@ -1,0 +1,22 @@
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.deps.json
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.runtimeconfig.json
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.runtimeconfig.dev.json
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.dll
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.pdb
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.csprojResolveAssemblyReference.cache
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.csproj.CoreCompileInputs.cache
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.AssemblyInfoInputs.cache
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.AssemblyInfo.cs
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.dll
+D:\Lab\CoinNetCoreConsole\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.pdb
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.deps.json
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.runtimeconfig.json
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.runtimeconfig.dev.json
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.dll
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\bin\Debug\netcoreapp2.0\CoinNetCoreConsole.pdb
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.csprojResolveAssemblyReference.cache
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.csproj.CoreCompileInputs.cache
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.AssemblyInfoInputs.cache
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.AssemblyInfo.cs
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.dll
+D:\Git\Training Material\BitCoin\CoinNetCoreConsole\obj\Debug\netcoreapp2.0\CoinNetCoreConsole.pdb

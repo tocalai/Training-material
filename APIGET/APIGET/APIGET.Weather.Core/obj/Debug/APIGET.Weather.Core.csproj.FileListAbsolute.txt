@@ -1,0 +1,39 @@
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\APIGET.Weather.Core.dll
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\APIGET.Weather.Core.pdb
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.Core.dll
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.dll
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Quartz.dll
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.pdb
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.xml
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.Core.pdb
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.Core.xml
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Quartz.pdb
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Quartz.xml
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\obj\Debug\APIGET.Weather.Core.dll
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\obj\Debug\APIGET.Weather.Core.pdb
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Newtonsoft.Json.dll
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Newtonsoft.Json.xml
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Npgsql.dll
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Npgsql.xml
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\IVP\Training\CSharp\master\6-APIGET\APIGET\APIGET.Weather.Core\obj\Debug\APIGET.Weather.Core.csprojResolveAssemblyReference.cache
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\APIGET.Weather.Core.dll
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\APIGET.Weather.Core.pdb
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.Core.dll
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.dll
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Newtonsoft.Json.dll
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Npgsql.dll
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Quartz.dll
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.pdb
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.xml
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.Core.pdb
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Common.Logging.Core.xml
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Newtonsoft.Json.xml
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Npgsql.xml
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Quartz.pdb
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\Quartz.xml
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\obj\Debug\APIGET.Weather.Core.dll
+D:\Git\Training Material\APIGET\APIGET\APIGET.Weather.Core\obj\Debug\APIGET.Weather.Core.pdb

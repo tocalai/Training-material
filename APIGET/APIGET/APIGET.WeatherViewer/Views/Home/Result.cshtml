@@ -1,0 +1,50 @@
+﻿@model APIGET.WeacherViewer.Models.WeatherResultViewModel
+@{
+    ViewBag.Title = "Result";
+}
+
+@if (Model.Result.Count() > 0)
+{
+    <h2>Totoal: @Model.Result.Count() record(s)</h2>
+}
+
+@if (Model.Result.Any())
+{
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>日付</th>
+                <th>都市名</th>
+                <th>天気</th>
+                <th>気温</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int index = 0;
+            }
+            @foreach (var city in Model.Result)
+            {         
+                <tr class=@(index%2 == 0 ? "success" : "info")>
+                    <td> @city.OutputForecastDate</td>
+                    <td> @city.CityName </td>
+                    <td> @city.WeatherDescription </td>
+                    <td> @city.OutputTemperateCelsius</td>
+                </tr>
+                index = index + 1;
+            }
+
+            <tr>
+                <td class="text-right" colspan="4">@Html.ActionLink("Back", "Index", "Home")</td>
+            </tr>
+        </tbody>
+    </table>
+}
+else
+{
+    <hr />
+    <div class="container">
+        <p class="text-warning">Sorry, we could not find any result!</p>
+    </div>
+}
+

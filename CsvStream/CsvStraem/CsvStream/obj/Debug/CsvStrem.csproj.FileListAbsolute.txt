@@ -1,0 +1,6 @@
+D:\IVP\Training\CSharp\master\3-CsvStrem\CsvStrem\CsvStrem\bin\Debug\CsvStrem.exe.config
+D:\IVP\Training\CSharp\master\3-CsvStrem\CsvStrem\CsvStrem\bin\Debug\CsvStrem.exe
+D:\IVP\Training\CSharp\master\3-CsvStrem\CsvStrem\CsvStrem\bin\Debug\CsvStrem.pdb
+D:\IVP\Training\CSharp\master\3-CsvStrem\CsvStrem\CsvStrem\obj\Debug\CsvStrem.exe
+D:\IVP\Training\CSharp\master\3-CsvStrem\CsvStrem\CsvStrem\obj\Debug\CsvStrem.pdb
+D:\IVP\Training\CSharp\master\3-CsvStrem\CsvStrem\CsvStrem\obj\Debug\CsvStrem.csprojResolveAssemblyReference.cache

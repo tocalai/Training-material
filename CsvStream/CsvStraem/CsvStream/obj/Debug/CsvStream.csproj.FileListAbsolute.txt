@@ -1,0 +1,13 @@
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStrem\bin\Debug\CsvStrem.exe.config
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStrem\bin\Debug\CsvStrem.exe
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStrem\bin\Debug\CsvStrem.pdb
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStrem\obj\Debug\CsvStream.csprojResolveAssemblyReference.cache
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStrem\obj\Debug\CsvStream.csproj.CoreCompileInputs.cache
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStrem\obj\Debug\CsvStrem.exe
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStrem\obj\Debug\CsvStrem.pdb
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStream\bin\Debug\CsvStrem.exe.config
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStream\bin\Debug\CsvStrem.exe
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStream\bin\Debug\CsvStrem.pdb
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStream\obj\Debug\CsvStream.csproj.CoreCompileInputs.cache
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStream\obj\Debug\CsvStrem.exe
+D:\Git\Training Material\CsvStream\CsvStraem\CsvStream\obj\Debug\CsvStrem.pdb

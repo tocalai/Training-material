@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APICreate</name>
+    </assembly>
+    <members>
+        <member name="T:APICreate.ActionFilters.ValidateActionFilterAttr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:APICreate.ActionFilters.ValidateActionFilterAttr.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)">
+            <summary>
+            before action invoke, check the model is vaild or not
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="T:APICreate.Controllers.ItineraryController">
+            <summary>
+            Controller for operate Itinerary
+            </summary>
+        </member>
+        <member name="M:APICreate.Controllers.ItineraryController.PostNewLine(APICreate.Models.Database.Route)">
+            <summary>
+             Add new Line to database
+            </summary>
+            <returns>IHttpActionResult</returns>
+            <remarks>
+            Demo add new line (line_name, date, description) to store
+            </remarks>
+        </member>
+        <member name="M:APICreate.Controllers.ItineraryController.PostSearchLine(System.String,System.String,System.String,System.String)">
+            <summary>
+            Search line according the input criteria via parameter
+            </summary>
+            <param name="dateRange">Date time format in From(yyyy/MM/dd)-To(yyyy/MM/dd), left blank indicate all date</param>
+            <param name="line">Name of line, searching via partial name</param>
+            <param name="orderBy">Order by date, ASC/DESC, default: ASC</param>
+            <param name="type">Ouput format, JSON/XML, default: JSON</param>
+            <returns>IHttpActionResult</returns>
+            <remarks>
+            Using post to retrieve route event data
+            </remarks>
+        </member>
+        <member name="T:APICreate.DataAnnotations.DateTimeRangeValidateAttribute">
+            <summary>
+            Validate the  date time range from input parameter
+            </summary>
+        </member>
+        <member name="M:APICreate.DataAnnotations.DateTimeRangeValidateAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)">
+            <summary>
+             customize the validation attribute of date time range
+            </summary>
+            <param name="value"></param>
+            <param name="validationContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:APICreate.DataAnnotations.OrderByValidateAttribute">
+            <summary>
+             Validate the order from input parameter
+            </summary>
+        </member>
+        <member name="M:APICreate.DataAnnotations.OrderByValidateAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)">
+            <summary>
+            customize the validation attribute of order
+            </summary>
+            <param name="value"></param>
+            <param name="validationContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:APICreate.Misc.ParserHandler">
+            <summary>
+            Helper class for handling string parsing
+            </summary>
+        </member>
+        <member name="M:APICreate.Misc.ParserHandler.ParserDateTimeRange(System.String,System.DateTime@,System.DateTime@)">
+            <summary>
+            Parse date time 
+            </summary>
+            <param name="dateTimeStr"></param>
+            <param name="fromDateTime"></param>
+            <param name="toDateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APICreate.Models.Criteria.CheckCriteriaValid(System.String@)">
+            <summary>
+            Check critera logic validate
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:APICreate.Models.Database.Route">
+            <summary>
+            Route VO mapping to table: lai_apicreate
+            </summary>
+        </member>
+        <member name="P:APICreate.Models.Database.Route.Id">
+            <summary>
+            Identity fo route
+            </summary>
+        </member>
+        <member name="P:APICreate.Models.Database.Route.LineName">
+            <summary>
+            Name of line
+            </summary>
+        </member>
+        <member name="P:APICreate.Models.Database.Route.Date">
+            <summary>
+            Event date
+            </summary>
+        </member>
+        <member name="P:APICreate.Models.Database.Route.Description">
+            <summary>
+            description
+            </summary>
+        </member>
+        <member name="T:APICreate.Models.Database.RouteDao">
+            <summary>
+             data access object
+            </summary>
+        </member>
+        <member name="M:APICreate.Models.Database.RouteDao.InsertNewLine(APICreate.Models.Database.Route)">
+            <summary>
+            Insert new line to table
+            </summary>
+            <param name="route"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APICreate.Models.Database.RouteDao.FindRoute(APICreate.Models.Criteria)">
+            <summary>
+            Find the route data according the critera
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
