@@ -7,9 +7,9 @@ Extend from practice of CSVStream, you need  to insert the created CSV file into
 1. Read data from database, filter by person's birthday before/after 1 weeks of application start date
 
 ## Data schema format and example
-|ID|Name|Sex|Birthday|intime|utime|
-|---------|:------|:------|:------|:------|
-|1|John|Male|2017/03/28|2017/03/29|2017/03/30|
+| ID | Name | Sex | Birthday | Intime | Utime |
+| ------ | ------ | ------- | ------- | ----- | ---- |
+| 1 | John | Male | 2017/03/28 | 2017/03/29 | 2017/03/30 |
 
 ## Export format and example
 ```
